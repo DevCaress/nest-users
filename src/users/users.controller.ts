@@ -6,7 +6,7 @@ import { UpdateUserDto } from './dto/update-user.dto';
 
 @Controller('users')
 export class UsersController {
-
+    /* Esto es un nuevo feature en el que ando trabajando y quiero ver si jala */
     constructor(private readonly usersService: UsersService) { }
 
     @Get() // GET /users or /users?role=value
